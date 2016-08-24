@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 - (IBAction)buttonPressed:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UILabel *Label;
 
 @end
 

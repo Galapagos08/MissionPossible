@@ -32,11 +32,26 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sdI-aO-MOC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlX-fX-fQw">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="otb-vO-pg2"/>
+                                    <constraint firstAttribute="height" constant="120" id="qxU-Pk-95b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="60"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tnu-cx-Ltq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Joc-tI-MUH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Z4-em-6r0"/>
-                            <constraint firstItem="Joc-tI-MUH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30.5" id="Kv2-LU-bhl"/>
+                            <constraint firstItem="Joc-tI-MUH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-84.5" id="0Z4-em-6r0"/>
+                            <constraint firstItem="Joc-tI-MUH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-0.5" id="Kv2-LU-bhl"/>
+                            <constraint firstItem="UlX-fX-fQw" firstAttribute="baseline" secondItem="Joc-tI-MUH" secondAttribute="baseline" id="QLz-s6-M4Y"/>
+                            <constraint firstItem="UlX-fX-fQw" firstAttribute="leading" secondItem="Joc-tI-MUH" secondAttribute="trailing" constant="48" id="Whg-Az-Nda"/>
                         </constraints>
                     </view>
                 </viewController>
