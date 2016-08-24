@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -45,15 +46,33 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tnu-cx-Ltq"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDX-7N-Q8Q">
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Them" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2A1-fW-Xmk">
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Joc-tI-MUH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-84.5" id="0Z4-em-6r0"/>
+                            <constraint firstItem="sDX-7N-Q8Q" firstAttribute="top" secondItem="Joc-tI-MUH" secondAttribute="bottom" constant="41" id="EGZ-4C-IFt"/>
                             <constraint firstItem="Joc-tI-MUH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-0.5" id="Kv2-LU-bhl"/>
+                            <constraint firstItem="2A1-fW-Xmk" firstAttribute="baseline" secondItem="sDX-7N-Q8Q" secondAttribute="baseline" id="L0F-V4-KOY"/>
                             <constraint firstItem="UlX-fX-fQw" firstAttribute="baseline" secondItem="Joc-tI-MUH" secondAttribute="baseline" id="QLz-s6-M4Y"/>
+                            <constraint firstItem="sDX-7N-Q8Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="T1N-bW-KC6"/>
                             <constraint firstItem="UlX-fX-fQw" firstAttribute="leading" secondItem="Joc-tI-MUH" secondAttribute="trailing" constant="48" id="Whg-Az-Nda"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2A1-fW-Xmk" secondAttribute="trailing" constant="60" id="iFB-Bh-x8J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2A1-fW-Xmk" secondAttribute="trailing" constant="60" id="nci-d0-PmS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Label" destination="sDX-7N-Q8Q" id="cwv-ic-QFv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
