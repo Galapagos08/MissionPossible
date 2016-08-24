@@ -19,18 +19,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Joc-tI-MUH">
-                                <state key="normal" title="Button"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="DLv-yL-aI6"/>
+                                    <constraint firstAttribute="height" constant="120" id="hYa-tb-XLK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="60"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sdI-aO-MOC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Joc-tI-MUH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bDU-Fr-OMs"/>
-                            <constraint firstItem="Joc-tI-MUH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zpm-Rv-e8C"/>
+                            <constraint firstItem="Joc-tI-MUH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Z4-em-6r0"/>
+                            <constraint firstItem="Joc-tI-MUH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30.5" id="Kv2-LU-bhl"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="counterButton" destination="Joc-tI-MUH" id="Tb2-sZ-dzr"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
