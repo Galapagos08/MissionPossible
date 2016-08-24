@@ -57,7 +57,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Joc-tI-MUH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-84.5" id="0Z4-em-6r0"/>
                             <constraint firstItem="sDX-7N-Q8Q" firstAttribute="top" secondItem="Joc-tI-MUH" secondAttribute="bottom" constant="41" id="EGZ-4C-IFt"/>
@@ -66,8 +66,8 @@
                             <constraint firstItem="UlX-fX-fQw" firstAttribute="baseline" secondItem="Joc-tI-MUH" secondAttribute="baseline" id="QLz-s6-M4Y"/>
                             <constraint firstItem="sDX-7N-Q8Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="T1N-bW-KC6"/>
                             <constraint firstItem="UlX-fX-fQw" firstAttribute="leading" secondItem="Joc-tI-MUH" secondAttribute="trailing" constant="48" id="Whg-Az-Nda"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2A1-fW-Xmk" secondAttribute="trailing" constant="60" id="iFB-Bh-x8J"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2A1-fW-Xmk" secondAttribute="trailing" constant="60" id="nci-d0-PmS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2A1-fW-Xmk" secondAttribute="trailing" constant="38.5" id="iFB-Bh-x8J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2A1-fW-Xmk" secondAttribute="trailing" constant="38.5" id="nci-d0-PmS"/>
                         </constraints>
                     </view>
                     <connections>
